@@ -1,0 +1,9 @@
+
+CoreDataLog class
+
+call it so:
+[[[CoreDataLog alloc] init:self.managedObjectContext andShowProps:NO andShowData:YES] show];  
+
+
+* yes could have done it with static method, but may do more with managedObjectContext as the app
+runs
